@@ -36,7 +36,7 @@ def sqrt(a):
     Handle negative inputs by returning "Error: Negative input".
     """
     if a < 0:
-        return "Error: Negative Input"
+        return "Error: Negative input"
     else:
         result = a ** 0.5
         return result
